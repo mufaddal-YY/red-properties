@@ -52,7 +52,7 @@ const HeroBanner = ({ homeData }) => {
               <Slider {...settings}>
                 {item.heroSlider.map((data, index) => (
                   <div
-                    className="h-[450px] md:h-screen lg:h-screen relative"
+                    className="h-[550px] md:h-screen lg:h-screen relative"
                     key={index}>
                     <motion.div
                       initial={{ opacity: 0, y: "5%" }}
