@@ -115,6 +115,11 @@ export default {
       type: "string",
     },
     {
+      name: "brochure",
+      title: "Brochure link",
+      type: "string",
+    },
+    {
       name: "mapLink",
       title: "Map link",
       type: "string",

@@ -1,9 +1,6 @@
 "use client";
-import React from "react";
 import Image from "next/image";
 import Slider from "react-slick";
-import Link from "next/link";
-import { IoMdArrowDown } from "react-icons/io";
 import { motion } from "framer-motion";
 const HeroBanner = ({ homeData }) => {
   const settings = {
@@ -81,7 +78,6 @@ const HeroBanner = ({ homeData }) => {
                       src={data?.image}
                       alt=""
                     />
-                    {/* <div className="absolute inset-0 bg-black opacity-10"></div> */}
                   </div>
                 ))}
               </Slider>

@@ -78,7 +78,7 @@ html {
 }
 
 .bg-primary {
-  @apply bg-[#EE3137];
+  @apply bg-[#c51f25];
 }
 
 .floating {
