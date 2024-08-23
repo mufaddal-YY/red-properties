@@ -75,7 +75,7 @@ const PropertyCards = ({
 
       <div className="px-4 py-2">
         <div className="">
-          <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
             <div>
               <Link href={`/properties/${slug}`}>
                 <h4 className="font-medium text-gray-800 capitalize text-md mb-2">
@@ -88,7 +88,7 @@ const PropertyCards = ({
                 <p className="flex items-center">
                   <span className="mr-1 text-red-500">Rera:</span>
                   <span
-                    className="font-regular mt-1 text-sm text-gray-500 truncate"
+                    className="font-regular text-sm text-gray-500 truncate"
                     style={{
                       maxWidth: "150px", // Adjust this value as needed
                       overflow: "hidden",
@@ -102,7 +102,7 @@ const PropertyCards = ({
             </div>
           </div>
 
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row justify-center md:justify-start lg:justify-start items-center">
             <div className="flex items-center gap-2 pb-2">
               {[...new Set(apartmentSizes.map((item) => item.size))].map(
                 (size, index, array) => (

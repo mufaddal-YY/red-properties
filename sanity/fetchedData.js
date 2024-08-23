@@ -107,6 +107,7 @@ export async function getPropertyDetailData(slug) {
          propertyName,
          "slug": slug.current,
          reraNumber,
+         brochure,
          highlights,
          startingPrice,
          apartmentSizes[]{
@@ -124,7 +125,12 @@ export async function getPropertyDetailData(slug) {
          nearbyLocation[]{
          location,
          },
-         amenities[],    
+         amenities[], 
+         floorPlans[]{
+         floor,
+        "image": image.asset->url,
+         
+         }   
       }`,
     { slug, defaultFetchOptions }
   );

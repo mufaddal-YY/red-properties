@@ -4,6 +4,7 @@ import React from "react";
 import Slider from "react-slick";
 
 const Banner = ({ propertiesData }) => {
+  
   const settings = {
     infinite: true,
     slidesToShow: 1,
@@ -41,6 +42,7 @@ const Banner = ({ propertiesData }) => {
       },
     ],
   };
+
   return (
     <main className="items-center bg-cover bg-center bg-no-repeat">
       {propertiesData.slice(2, 3).map((item) => (

@@ -48,7 +48,7 @@ const EnquiryForm = () => {
   }
 
   return (
-    <main className="bg-white rounded-2xl p-6 w-1/2">
+    <main className="bg-white rounded-2xl p-6">
       <section>
         <article>
           <h4 className="text-3xl py-2 mb-4 text-center text-gray-800">
@@ -56,7 +56,7 @@ const EnquiryForm = () => {
           </h4>
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-3">
-              <div className="flex flex-row justify-between gap-2">
+              <div className="flex flex-col lg:flex-row justify-between gap-2">
                 <div className="w-full">
                   <FormField
                     control={form.control}
@@ -87,7 +87,7 @@ const EnquiryForm = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row justify-between gap-2">
+              <div className="flex flex-col lg:flex-row justify-between gap-2">
                 <div className="w-full">
                   <FormField
                     control={form.control}

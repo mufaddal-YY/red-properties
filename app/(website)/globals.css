@@ -81,6 +81,10 @@ html {
   @apply bg-[#c51f25];
 }
 
+.shadow-custom {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 .floating {
   animation-name: floating;
   animation-duration: 3s;

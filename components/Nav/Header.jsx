@@ -55,7 +55,7 @@ const Header = () => {
             <MobileNav />
           </div>
           <div className="hidden lg:flex">
-            <Link href="/contact">
+            <Link href="#cta">
               <Button className="bg-primary hover:bg-white hover:text-[#EE3137] border border-[#EE3137]">
                 Enquire
               </Button>

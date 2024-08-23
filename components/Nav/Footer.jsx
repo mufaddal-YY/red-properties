@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <main className="bg-white">
       <section className="container py-6">
-        <article className="flex justify-between items-center">
+        <article className="flex flex-col md:flex-row lg:flex-row justify-between md:items-center lg:items-center">
           <article>
             <Link href="/">
               <Image src={Logo} width={60} height={60} alt="Footer Logo" />
@@ -20,18 +20,19 @@ const Footer = () => {
               Indusind bank. Ram nagar colony Pune 411021.
             </p>
           </article>
-          <article>
+          <article className="mt-4">
             <Link
               href={`tel:9850907066`}
-              className="flex gap-2 items-center text-md font-medium py-2">
+              className="flex gap-2 text-md font-medium py-2">
               <span className="text-xl text-red-500">
                 <MdCall />
               </span>
               +91- 9850907066
             </Link>
+
             <Link
               href={`mailto:info@redproperties.com`}
-              className="flex gap-2 items-center text-md font-medium py-2">
+              className="flex gap-2 text-md font-medium py-2">
               <span className="text-xl text-red-500">
                 <MdEmail />
               </span>
