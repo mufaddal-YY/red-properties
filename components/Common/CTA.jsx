@@ -8,7 +8,7 @@ const CTA = () => {
         <article className="flex flex-col mx-auto">
           <div className="text-center py-4">
             <h2 className="text-white font-semibold text-2xl lg:text-4xl">
-              Unlock Your Dream Home <br /> Where Possibilities Become Reality!
+              Unlock Your Dream Home <br className="hidden lg:block" /> Where Possibilities Become Reality!
             </h2>
           </div>
           <div className="mx-auto w-full lg:w-3/4 py-4">

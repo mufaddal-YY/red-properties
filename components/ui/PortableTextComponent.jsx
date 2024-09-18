@@ -33,7 +33,7 @@ const myPortableTextComponents = {
 
 const PortableTextComponent = ({ content }) => {
   return (
-    <div className="ml-4">
+    <div className="">
       <PortableText
       content={content}
       components={myPortableTextComponents}
@@ -42,7 +42,7 @@ const PortableTextComponent = ({ content }) => {
         h4: (props) => <h4 style={{ fontSize: "28px" }} {...props} />,
         h5: (props) => <h4 style={{ fontSize: "18px" }} {...props} />,
         li: ({ children }) => (
-          <li className="special-list-item list-disc leading-loose ">
+          <li className="special-list-item list-disc leading-loose ml-4">
             {children}
           </li>
         ),

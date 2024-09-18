@@ -15,7 +15,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold py-2">
               Red Property Solutions
             </h4>
-            <p className="text-md w-1/2">
+            <p className="text-md w-full lg:w-1/2">
               U-13, First floor Runwal Platinum, NDA Pashan Rd. Bavdhan. Near
               Indusind bank. Ram nagar colony Pune 411021.
             </p>

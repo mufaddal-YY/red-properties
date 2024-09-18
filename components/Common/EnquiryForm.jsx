@@ -48,7 +48,7 @@ const EnquiryForm = () => {
   }
 
   return (
-    <main className="bg-white rounded-2xl p-6">
+    <main className="bg-white rounded-2xl p-3 lg:p-6">
       <section>
         <article>
           <h4 className="text-3xl py-2 mb-4 text-center text-gray-800">

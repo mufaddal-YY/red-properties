@@ -16,7 +16,7 @@ const VisionMission = ({ aboutData }) => {
               <h2 className="text-xl font-semibold text-center text-white">
                 {item.visionTitle}
               </h2>
-              <p className="text-center mt-2 text-white">
+              <p className="text-md text-center mt-2 text-white">
                 {item.visionDescription}
               </p>
             </article>
@@ -27,7 +27,7 @@ const VisionMission = ({ aboutData }) => {
               <h2 className="text-xl font-semibold text-center text-white">
                 {item.missionTitle}
               </h2>
-              <p className="text-center mt-2 text-white">
+              <p className="text-md text-center mt-2 text-white">
                 {item.missionDescription}
               </p>
             </article>

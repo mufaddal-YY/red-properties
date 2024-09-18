@@ -16,11 +16,11 @@ const AboutSection = ({ aboutData }) => {
                   {item.sectionTitle}
                 </h4>
                 <Separator className="my-2 bg-red-500" />
-                <div className="py-4 text-sm text-gray-500">
+                <div className="py-4 text-md text-gray-700">
                   <p>{item.sectionDescription}</p>
                 </div>
               </div>
-              <div className="w-full lg:w-1/2 p-2 flex mb-4 justify-center items-center ">
+              <div className="w-full lg:w-1/2 flex mb-4 justify-center items-center">
                 <Image
                   className="rounded-xl floating-hover"
                   src={item.sectionImage}

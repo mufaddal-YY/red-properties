@@ -129,7 +129,6 @@ export async function getPropertyDetailData(slug) {
          floorPlans[]{
          floor,
         "image": image.asset->url,
-         
          }   
       }`,
     { slug, defaultFetchOptions }

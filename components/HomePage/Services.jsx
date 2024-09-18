@@ -4,7 +4,7 @@ const Services = ({ homeData }) => {
   return (
     <main className="py-[50px] bg-gray-50">
       <section className="container">
-        <div className="p-2 mx-auto flex justify-center lg:justify-start">
+        <div className="mx-auto flex justify-center lg:justify-start">
           <h2 className="text-3xl py-3 text-center lg:text-left border-b-2 border-[#EE3137] w-1/2 md:w-1/5 lg:w-1/6">
             Services
           </h2>

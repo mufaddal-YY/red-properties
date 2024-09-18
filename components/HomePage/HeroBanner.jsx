@@ -60,7 +60,7 @@ const HeroBanner = ({ homeData }) => {
                         delay: index * 0.9,
                       }}
                       className="absolute inset-0 mx-auto flex items-center justify-center z-50 p-2">
-                      <div className="text-center bg-[#00000060] p-6 md:p-9 lg:p-12 rounded-2xl">
+                      <div className="text-center bg-[#00000080] p-6 md:p-9 lg:p-12 rounded-2xl">
                         <div className="w-full md:w-3/4 lg:w-3/4 mx-auto text-center">
                           <h1 className="text-white font-semibold text-2xl md:text-3xl lg:text-5xl py-4 border-b-2 border-[#EE3137]">
                             {item.headline}

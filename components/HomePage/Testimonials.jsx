@@ -53,7 +53,7 @@ const Testimonials = ({ homeData }) => {
       <section className="container items-center">
         <article className="flex justify-between items-center">
           <div className="">
-            <h2 className="text-3xl py-3 text-center lg:text-left border-b-2 border-[#EE3137]">
+            <h2 className="text-2xl lg:text-3xl py-3 text-left border-b-2 border-[#EE3137]">
               Customer Testimonials
             </h2>
           </div>

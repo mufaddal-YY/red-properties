@@ -34,7 +34,7 @@ const DetailAbout = ({ propertyDetail }) => {
               </p>
               <div className="py-2 flex flex-row flex-wrap">
                 {propertyDetail?.apartmentSizes.map((item) => (
-                  <div className="w-1/2 flex gap-2 p-2 items-center">
+                  <div className="w-full lg:w-1/2 flex gap-2 p-2 items-center">
                     <div className="border p-3 border-red-500">
                       <Image src={ApartmentImage} width={50} height={50} />
                     </div>
@@ -64,9 +64,9 @@ const DetailAbout = ({ propertyDetail }) => {
         </section>
       </main>
 
-      <main className="bg-white py-[20px] items-center">
-        <section className="container py-[50px] flex flex-col items-center">
-          <div className="text-md lg:text-lg text-gray-600">
+      <main className="bg-white py-[50px] items-center">
+        <section className="container flex flex-col items-center">
+          <div className="text-md lg:text-lg text-gray-700">
             <PortableTextComponent content={propertyDetail?.aboutProperty} />
           </div>
         </section>

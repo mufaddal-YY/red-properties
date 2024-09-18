@@ -16,7 +16,7 @@ const FounderSection = ({ aboutData }) => {
                   {item.founderTitle}
                 </h4>
                 <Separator className="my-2 bg-red-500" />
-                <div className="py-4 text-md text-gray-500">
+                <div className="py-4 text-md text-gray-700">
                   <p>{item.founderDescription}</p>
                 </div>
               </div>

@@ -14,7 +14,7 @@ const CustomTabs = ({ tabs }) => {
     <div>
       {/* Tab Headers */}
       <div className="flex w-full justify-center border-b overflow-x-auto">
-        <div className="flex flex-nowrap">
+        <div className="flex flex-nowrap py-4 lg:py-0">
           {tabs?.floorPlans?.map((tab, index) => (
             <button
               key={index}

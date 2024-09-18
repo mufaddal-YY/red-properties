@@ -12,7 +12,7 @@ const PageBanner = ({ aboutData }) => {
               <div className="absolute inset-0 mx-auto flex items-center justify-center z-50 p-2">
                 <div className="text-center p-6 md:p-9 lg:p-12 rounded-2xl">
                   <div className="w-full mx-auto text-center">
-                    <h1 className="text-white font-semibold text-2xl md:text-3xl lg:text-5xl py-2">
+                    <h1 className="text-white font-semibold text-3xl lg:text-5xl py-2">
                       {item.headline}
                     </h1>
                     <p className="py-2 text-white text-lg">

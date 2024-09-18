@@ -11,7 +11,7 @@ const WhyRed = ({ homeData }) => {
           {homeData.map((item) => (
             <div className="flex flex-col w-full p-8">
               <div className="py-4">
-                <h2 className="text-white text-5xl lg:text-6xl leading-snug font-bold">
+                <h2 className="text-white text-5xl lg:text-6xl lg:p-4 leading-snug font-bold">
                   {item.sectionHead}
                 </h2>
               </div>

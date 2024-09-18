@@ -14,7 +14,7 @@ export default async function Properties() {
         <section className="container py-8">
           <article className="flex flex-wrap flex-row justify-between">
             {propertiesData.map((item) => (
-              <div className="w-full md:w-1/2 lg:w-1/3 p-4">
+              <div className="w-full mb-2 md:w-1/2 lg:w-1/3 lg:p-2">
                 <PropertyCards reraNumber={item.reraNumber} propertyName={item.propertyName} gallery={item.gallery} slug={item.slug} apartmentSizes={item.apartmentSizes} />
               </div>
             ))}
